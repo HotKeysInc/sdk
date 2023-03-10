@@ -1,6 +1,6 @@
 {
 	"name": "hotkeys-sdk",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Typescript SDK for HotKeys",
 	"repository": {
 		"type": "git",

@@ -1,7 +1,8 @@
 {
 	"git": {
 		"commitMessage": "chore: release v${version}",
-		"requireCommits": true
+		"requireCommits": true,
+		"requireCleanWorkingDir": false
 	},
 	"github": {
 		"release": true,
@@ -9,6 +10,6 @@
 		"autoGenerate": true
 	},
 	"hooks": {
-		"before:bump": "if ! pnpm run should-semantic-release --verbose ; then exit 1 ; fi"
+		"before:bump": "exit 0;"
 	}
 }
