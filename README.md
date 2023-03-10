@@ -6,7 +6,7 @@
 	<a href="#contributors" target="_blank">
 <!-- prettier-ignore-start -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-<img alt="All Contributors: 10" src="https://img.shields.io/badge/all_contributors-10-21bb42.svg" />
+<img alt="All Contributors: 2" src="https://img.shields.io/badge/all_contributors-2-21bb42.svg" />
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <!-- prettier-ignore-end -->
 	</a>
@@ -52,18 +52,8 @@ Thanks! 💖
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="http://www.joshuakgoldberg.com"><img src="https://avatars.githubusercontent.com/u/3335181?v=4?s=100" width="100px;" alt="Josh Goldberg"/><br /><sub><b>Josh Goldberg</b></sub></a><br /><a href="https://github.com/HotKeysInc/sdk/issues?q=author%3AHotKeysInc" title="Bug reports">🐛</a> <a href="https://github.com/HotKeysInc/sdk/commits?author=HotKeysInc" title="Code">💻</a> <a href="#content-HotKeysInc" title="Content">🖋</a> <a href="#example-HotKeysInc" title="Examples">💡</a> <a href="#ideas-HotKeysInc" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-HotKeysInc" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-HotKeysInc" title="Maintenance">🚧</a> <a href="#platform-HotKeysInc" title="Packaging/porting to new platform">📦</a> <a href="#projectManagement-HotKeysInc" title="Project Management">📆</a> <a href="https://github.com/HotKeysInc/sdk/pulls?q=is%3Apr+reviewed-by%3AHotKeysInc" title="Reviewed Pull Requests">👀</a> <a href="#security-HotKeysInc" title="Security">🛡️</a> <a href="#tool-HotKeysInc" title="Tools">🔧</a> <a href="https://github.com/HotKeysInc/sdk/commits?author=HotKeysInc" title="Tests">⚠️</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://sinchang.me"><img src="https://avatars.githubusercontent.com/u/3297859?v=4?s=100" width="100px;" alt="Jeff Wen"/><br /><sub><b>Jeff Wen</b></sub></a><br /><a href="#tool-sinchang" title="Tools">🔧</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://paulisaweso.me/"><img src="https://avatars.githubusercontent.com/u/6335792?v=4?s=100" width="100px;" alt="Paul Esch-Laurent"/><br /><sub><b>Paul Esch-Laurent</b></sub></a><br /><a href="#tool-Pinjasaur" title="Tools">🔧</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/NazCodeland"><img src="https://avatars.githubusercontent.com/u/113494366?v=4?s=100" width="100px;" alt="NazCodeland"/><br /><sub><b>NazCodeland</b></sub></a><br /><a href="#tool-NazCodeland" title="Tools">🔧</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://blog.johnnyreilly.com/"><img src="https://avatars.githubusercontent.com/u/1010525?v=4?s=100" width="100px;" alt="John Reilly"/><br /><sub><b>John Reilly</b></sub></a><br /><a href="https://github.com/HotKeysInc/sdk/issues?q=author%3Ajohnnyreilly" title="Bug reports">🐛</a> <a href="#ideas-johnnyreilly" title="Ideas, Planning, & Feedback">🤔</a> <a href="#promotion-johnnyreilly" title="Promotion">📣</a> <a href="#maintenance-johnnyreilly" title="Maintenance">🚧</a> <a href="https://github.com/HotKeysInc/sdk/commits?author=johnnyreilly" title="Code">💻</a> <a href="https://github.com/HotKeysInc/sdk/pulls?q=is%3Apr+reviewed-by%3Ajohnnyreilly" title="Reviewed Pull Requests">👀</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://webpro.nl"><img src="https://avatars.githubusercontent.com/u/456426?v=4?s=100" width="100px;" alt="Lars Kappert"/><br /><sub><b>Lars Kappert</b></sub></a><br /><a href="#tool-webpro" title="Tools">🔧</a> <a href="#ideas-webpro" title="Ideas, Planning, & Feedback">🤔</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/RebeccaStevens"><img src="https://avatars.githubusercontent.com/u/7224206?v=4?s=100" width="100px;" alt="Rebecca Stevens"/><br /><sub><b>Rebecca Stevens</b></sub></a><br /><a href="https://github.com/HotKeysInc/sdk/commits?author=RebeccaStevens" title="Code">💻</a> <a href="#ideas-RebeccaStevens" title="Ideas, Planning, & Feedback">🤔</a></td>
-    </tr>
-    <tr>
-      <td align="center" valign="top" width="14.28%"><a href="http://ronjeanfrancois.com"><img src="https://avatars.githubusercontent.com/u/105710107?v=4?s=100" width="100px;" alt="Ron Jean-Francois"/><br /><sub><b>Ron Jean-Francois</b></sub></a><br /><a href="#tool-ronthetech" title="Tools">🔧</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/nowyDEV"><img src="https://avatars.githubusercontent.com/u/12304307?v=4?s=100" width="100px;" alt="Dominik Nowik"/><br /><sub><b>Dominik Nowik</b></sub></a><br /><a href="#tool-nowyDEV" title="Tools">🔧</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/TAKANOME-DEV"><img src="https://avatars.githubusercontent.com/u/79809121?v=4?s=100" width="100px;" alt="takanomedev"/><br /><sub><b>takanomedev</b></sub></a><br /><a href="#tool-TAKANOME-DEV" title="Tools">🔧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://www.joshuakgoldberg.com"><img src="https://avatars.githubusercontent.com/u/3335181?v=4?s=100" width="100px;" alt="Josh Goldberg"/><br /><sub><b>Josh Goldberg</b></sub></a><br /><a href="#tool-JoshuaKGoldberg" title="Tools">🔧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/SyedAhkam"><img src="https://avatars.githubusercontent.com/u/52673095?v=4?s=100" width="100px;" alt="Syed Ahkam"/><br /><sub><b>Syed Ahkam</b></sub></a><br /><a href="https://github.com/HotKeysInc/hotkeys-sdk/commits?author=SyedAhkam" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
