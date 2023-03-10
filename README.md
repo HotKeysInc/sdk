@@ -29,13 +29,21 @@
 ## Usage
 
 ```shell
-npm i sdk
+npm i hotkeys-sdk
 ```
 
 ```ts
-import { greet } from "sdk";
+import * as hotkeys from "hotkeys-sdk";
 
-greet("Hello, world!");
+const [txId, mintId] = await generateKey(
+	connection,
+	owner,
+	"HK: Plugin",
+	"https://raw.githubusercontent.com/HotKeysInc/programs/main/assets/test_metadata.json"
+);
+
+console.log("txId: ", txId);
+console.log("mintId: ", mintId);
 ```
 
 ## Development
