@@ -9,9 +9,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.0.2] - 2023-03-11
 
-## Added
+### Added
 
-- `generateKey` API
+- Implement the generateKey instruction (2bded26)
+
+### Removed
+
+- Remove template scripts (eadd15e)
+
+### Fixed
+
+- fix: all contributors (5c6e948)
 
 ## [0.0.1] - 2023-03-11
 
