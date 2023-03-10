@@ -1,13 +1,13 @@
 {
-	"name": "template-typescript-node-package",
-	"version": "1.27.58",
-	"description": "A quickstart-friendly TypeScript package with lots of great repository tooling. ✨",
+	"name": "hotkeys-sdk",
+	"version": "0.0.0",
+	"description": "Typescript SDK for HotKeys",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/JoshuaKGoldberg/template-typescript-node-package"
+		"url": "https://github.com/HotKeysInc/sdk"
 	},
 	"license": "MIT",
-	"author": "Josh Goldberg <npm@joshuakgoldberg.com>",
+	"author": "SyedAhkam <smahkam57@gmail.com>",
 	"type": "module",
 	"main": "./lib/index.js",
 	"files": [
@@ -27,8 +27,6 @@
 		"lint:packages": "pnpm-deduplicate --list",
 		"lint:spelling": "cspell \"**\" \".github/**/*\"",
 		"prepare": "husky install",
-		"setup": "npx --yes zx --quiet script/setup.js",
-		"setup:test": "npx --yes zx --quiet script/setup-test-e2e.js",
 		"should-semantic-release": "should-semantic-release --verbose",
 		"test": "vitest"
 	},
@@ -39,9 +37,7 @@
 		"@typescript-eslint/eslint-plugin": "^5.48.2",
 		"@typescript-eslint/parser": "^5.48.2",
 		"@vitest/coverage-istanbul": "^0.29.0",
-		"chalk": "^5.2.0",
 		"cspell": "^6.19.2",
-		"enquirer": "^2.3.6",
 		"eslint": "^8.32.0",
 		"eslint-config-prettier": "^8.6.0",
 		"eslint-plugin-deprecation": "^1.3.3",
@@ -62,12 +58,10 @@
 		"markdownlint-cli": "^0.33.0",
 		"npm-package-json-lint": "^6.4.0",
 		"npm-package-json-lint-config-default": "^5.0.0",
-		"octokit": "^2.0.11",
 		"pnpm-deduplicate": "^0.4.1",
 		"prettier": "^2.8.3",
 		"prettier-plugin-packagejson": "^2.4.2",
 		"release-it": "^15.6.0",
-		"replace-in-file": "^6.3.5",
 		"sentences-per-line": "^0.2.1",
 		"should-semantic-release": "^0.0.4",
 		"typescript": "^4.9.4",
