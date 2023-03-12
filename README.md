@@ -51,20 +51,7 @@ console.log("mintId: ", mintId);
 See [`.github/CONTRIBUTING.md`](./.github/CONTRIBUTING.md).
 Thanks! 💖
 
-## Contributors
 
-<!-- spellchecker: disable -->
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tbody>
-    <tr>
-
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/SyedAhkam"><img src="https://avatars.githubusercontent.com/u/52673095?v=4?s=100" width="100px;" alt="Syed Ahkam"/><br /><sub><b>Syed Ahkam</b></sub></a><br /><a href="https://github.com/HotKeysInc/hotkeys-sdk/commits?author=SyedAhkam" title="Code">💻</a></td>
-    </tr>
-  </tbody>
-</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
