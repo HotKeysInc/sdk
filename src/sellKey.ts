@@ -44,6 +44,7 @@ export async function sellKey(
 	});
 
 	return await program.methods
+		// eslint-disable-next-line @typescript-eslint/no-unsafe-argument, @typescript-eslint/no-unsafe-call
 		.sellNft(new BN(saleAmountInLamports))
 		.accounts({
 			mint: token,
