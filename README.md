@@ -60,16 +60,16 @@ const txId = await hotkeys.sellKey(connection, owner, buyer, token, 0.1);
 console.log("txId: ", txId);
 ```
 
-### Check access (to be implemented)
+### Check access
 
 ```ts
 import * as hotkeys from "hotkeys-sdk";
 
-const tokenRequired = new PublicKey(
+const tokenExpected = new PublicKey(
 	"4eepA7KT2ZzyA8Gih94AxVb5uNPXy7d2mPZR6HF2TtZF"
 );
 
-if (await hotkeys.checkAccess(connection, owner, tokenRequired)) {
+if (await hotkeys.checkAccess(connection, owner, tokenExpected)) {
 	console.log("Access granted");
 } else {
 	console.log("Access denied");
