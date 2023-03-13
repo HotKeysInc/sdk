@@ -37,7 +37,7 @@ npm i hotkeys-sdk
 ```ts
 import * as hotkeys from "hotkeys-sdk";
 
-const [txId, mintId] = await generateKey(
+const [txId, mintId] = await hotkeys.generateKey(
 	connection,
 	owner,
 	"HK: Plugin",
@@ -48,14 +48,14 @@ console.log("txId: ", txId);
 console.log("mintId: ", mintId);
 ```
 
-### Sell a key
+### Resell a key
 
 ```ts
 import * as hotkeys from "hotkeys-sdk";
 
 const token = new PublicKey("4eepA7KT2ZzyA8Gih94AxVb5uNPXy7d2mPZR6HF2TtZF");
 
-const txId = await sellKey(connection, owner, buyer, token, 0.1);
+const txId = await hotkeys.sellKey(connection, owner, buyer, token, 0.1);
 
 console.log("txId: ", txId);
 ```
@@ -69,7 +69,7 @@ const tokenRequired = new PublicKey(
 	"4eepA7KT2ZzyA8Gih94AxVb5uNPXy7d2mPZR6HF2TtZF"
 );
 
-if (await checkAccess(connection, owner, tokenRequired)) {
+if (await hotkeys.checkAccess(connection, owner, tokenRequired)) {
 	console.log("Access granted");
 } else {
 	console.log("Access denied");
