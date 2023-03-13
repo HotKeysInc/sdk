@@ -19,6 +19,6 @@ export async function checkAccess(
 	const nfts = mpl.nfts();
 	const ownerNfts = await nfts.findAllByOwner({ owner: owner.publicKey });
 
-	// eslint-disable-next-line @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-call
+	// @ts-expect-error: mintAddress will always exist on Metadata object
 	return ownerNfts.some((nft) => nft.mintAddress.equals(keyAddress));
 }
