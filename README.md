@@ -76,6 +76,20 @@ if (await hotkeys.checkAccess(connection, owner, tokenExpected)) {
 }
 ```
 
+### Delete / Burn a key
+
+```ts
+import * as hotkeys from "hotkeys-sdk";
+
+const tokenToDestroy = new PublicKey(
+	"61F6P86LKaztWmYyjiPTjf1oqdkhBEYy6Y8FcYVq9o2w"
+);
+
+const response = await destroyKey(connection, owner, tokenToDestroy);
+
+console.log("response: ", response);
+```
+
 ## Development
 
 See [`.github/CONTRIBUTING.md`](./.github/CONTRIBUTING.md).
@@ -88,3 +102,7 @@ Thanks! 💖
 <!-- spellchecker: enable -->
 
 <!-- You can remove this notice if you don't want it 🙂 no worries! -->
+
+```
+
+```
