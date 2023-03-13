@@ -1,16 +1,10 @@
 import { clusterApiUrl, Connection, Keypair } from "@solana/web3.js";
-import fs from "fs";
 import os from "os";
 import path from "path";
 import { describe, it } from "vitest";
 
 import { generateKey } from "./generateKey.js";
-
-function loadPrivateKeyFromFile(filePath: string): number[] {
-	const privateKey = fs.readFileSync(filePath, "utf8");
-
-	return JSON.parse(privateKey) as number[];
-}
+import { loadPrivateKeyFromFile } from "./test-utils.js";
 
 describe("generateKey", () => {
 	const owner = Keypair.fromSecretKey(

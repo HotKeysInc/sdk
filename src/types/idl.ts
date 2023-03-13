@@ -68,6 +68,62 @@ export interface Hotkeys {
 				}
 			];
 			name: "mintNft";
+		},
+		{
+			accounts: [
+				{
+					isMut: true;
+					isSigner: false;
+					name: "mint";
+				},
+				{
+					isMut: true;
+					isSigner: false;
+					name: "ownerTokenAccount";
+				},
+				{
+					isMut: true;
+					isSigner: true;
+					name: "ownerAuthority";
+				},
+				{
+					isMut: true;
+					isSigner: false;
+					name: "buyerTokenAccount";
+				},
+				{
+					isMut: true;
+					isSigner: true;
+					name: "buyerAuthority";
+				},
+				{
+					isMut: false;
+					isSigner: false;
+					name: "rent";
+				},
+				{
+					isMut: false;
+					isSigner: false;
+					name: "systemProgram";
+				},
+				{
+					isMut: false;
+					isSigner: false;
+					name: "tokenProgram";
+				},
+				{
+					isMut: false;
+					isSigner: false;
+					name: "associatedTokenProgram";
+				}
+			];
+			args: [
+				{
+					name: "saleLamports";
+					type: "u64";
+				}
+			];
+			name: "sellNft";
 		}
 	];
 	name: "hotkeys";
@@ -144,6 +200,62 @@ export const IDL: Hotkeys = {
 				{
 					name: "metadataUri",
 					type: "string",
+				},
+			],
+		},
+		{
+			name: "sellNft",
+			accounts: [
+				{
+					name: "mint",
+					isMut: true,
+					isSigner: false,
+				},
+				{
+					name: "ownerTokenAccount",
+					isMut: true,
+					isSigner: false,
+				},
+				{
+					name: "ownerAuthority",
+					isMut: true,
+					isSigner: true,
+				},
+				{
+					name: "buyerTokenAccount",
+					isMut: true,
+					isSigner: false,
+				},
+				{
+					name: "buyerAuthority",
+					isMut: true,
+					isSigner: true,
+				},
+				{
+					name: "rent",
+					isMut: false,
+					isSigner: false,
+				},
+				{
+					name: "systemProgram",
+					isMut: false,
+					isSigner: false,
+				},
+				{
+					name: "tokenProgram",
+					isMut: false,
+					isSigner: false,
+				},
+				{
+					name: "associatedTokenProgram",
+					isMut: false,
+					isSigner: false,
+				},
+			],
+			args: [
+				{
+					name: "saleLamports",
+					type: "u64",
 				},
 			],
 		},
