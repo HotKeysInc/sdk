@@ -6,7 +6,7 @@ import { Connection, Keypair, PublicKey } from "@solana/web3.js";
  *
  * @param connection The connection to the cluster
  * @param owner The owner of the token
- * @param token The token to check
+ * @param keyAddress The address of the key to check
  * @returns True if the owner has ownership of the token, false otherwise
  **/
 export async function checkAccess(
