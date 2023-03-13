@@ -32,6 +32,8 @@
 npm i hotkeys-sdk
 ```
 
+### Generate a key
+
 ```ts
 import * as hotkeys from "hotkeys-sdk";
 
@@ -46,12 +48,38 @@ console.log("txId: ", txId);
 console.log("mintId: ", mintId);
 ```
 
+### Sell a key
+
+```ts
+import * as hotkeys from "hotkeys-sdk";
+
+const token = new PublicKey("4eepA7KT2ZzyA8Gih94AxVb5uNPXy7d2mPZR6HF2TtZF");
+
+const txId = await sellKey(connection, owner, buyer, token, 0.1);
+
+console.log("txId: ", txId);
+```
+
+### Check access (to be implemented)
+
+```ts
+import * as hotkeys from "hotkeys-sdk";
+
+const tokenRequired = new PublicKey(
+	"4eepA7KT2ZzyA8Gih94AxVb5uNPXy7d2mPZR6HF2TtZF"
+);
+
+if (await checkAccess(connection, owner, tokenRequired)) {
+	console.log("Access granted");
+} else {
+	console.log("Access denied");
+}
+```
+
 ## Development
 
 See [`.github/CONTRIBUTING.md`](./.github/CONTRIBUTING.md).
 Thanks! 💖
-
-
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
@@ -60,4 +88,3 @@ Thanks! 💖
 <!-- spellchecker: enable -->
 
 <!-- You can remove this notice if you don't want it 🙂 no worries! -->
-

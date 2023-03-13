@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Fix typescript linting (ae6918e)
+- Impl sellKey instruction (b2076a3)
+
+## [0.0.3] - 2023-03-11
+
+### Fixed
+
+- Update README.md (8347b61)
+
 ## [0.0.2] - 2023-03-11
 
 ### Added
