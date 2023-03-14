@@ -1,4 +1,9 @@
-import { AnchorProvider, Program, utils, Wallet } from "@project-serum/anchor";
+import {
+	AnchorProvider,
+	Program,
+	utils as anchorUtils,
+	Wallet,
+} from "@coral-xyz/anchor";
 import {
 	ComputeBudgetProgram,
 	Connection,
@@ -17,7 +22,6 @@ import { IDL } from "./types/idl.js";
 Generate a new NFT keypair and mint it to the owner's wallet.
 
 @param connection Solana connection
-@param owner Keypair of the owner
 @param name Name of the NFT
 @param metadataUri URI of the NFT metadata
 @param opts.computeBudgetUnits Computational budget units, defaults to 300000
@@ -40,7 +44,7 @@ export async function generateKey(
 	const mintKeypair = Keypair.generate();
 
 	// Define associated token address
-	const tokenAddress: PublicKey = await utils.token.associatedAddress({
+	const tokenAddress: PublicKey = anchorUtils.token.associatedAddress({
 		mint: mintKeypair.publicKey,
 		owner: owner.publicKey,
 	});

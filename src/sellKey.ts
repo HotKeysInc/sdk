@@ -1,5 +1,10 @@
-import { AnchorProvider, BN, Program, Wallet } from "@project-serum/anchor";
-import { associatedAddress } from "@project-serum/anchor/dist/cjs/utils/token";
+import {
+	AnchorProvider,
+	BN,
+	Program,
+	utils as anchorUtils,
+	Wallet,
+} from "@coral-xyz/anchor";
 import {
 	Connection,
 	Keypair,
@@ -34,11 +39,11 @@ export async function sellKey(
 	const program = new Program(IDL, PROGRAM_ID, provider);
 
 	// Derive associated token accounts for owner and buyer
-	const ownerTokenAddress = await associatedAddress({
+	const ownerTokenAddress = anchorUtils.token.associatedAddress({
 		mint: token,
 		owner: owner.publicKey,
 	});
-	const buyerTokenAddress = await associatedAddress({
+	const buyerTokenAddress = anchorUtils.token.associatedAddress({
 		mint: token,
 		owner: buyer.publicKey,
 	});
