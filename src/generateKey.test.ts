@@ -21,7 +21,7 @@ describe("generateKey", () => {
 			const [txId, mintId] = await generateKey(
 				connection,
 				owner,
-				"HK: Plugin",
+				"NF [Keys]",
 				"https://raw.githubusercontent.com/HotKeysInc/programs/main/assets/test_metadata.json"
 			);
 

@@ -16,7 +16,7 @@ describe("checkAccess", () => {
 	const connection = new Connection(clusterApiUrl("devnet"));
 
 	it("should return true", async () => {
-		const token = new PublicKey("APzsocjWi5aeWuHA5ybPkV8oByMTUq7G7jZ4EvTbwbHb");
+		const token = new PublicKey("DfC1z4chpoxYwBikrk3Jckv686J6Zrs9bcWsySa3zw4E");
 
 		const result = await checkAccess(connection, owner, token);
 

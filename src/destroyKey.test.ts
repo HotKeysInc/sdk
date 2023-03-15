@@ -19,7 +19,7 @@ describe("destroyKey", () => {
 		"destroy the key",
 		async () => {
 			const tokenToDestroy = new PublicKey(
-				"61F6P86LKaztWmYyjiPTjf1oqdkhBEYy6Y8FcYVq9o2w"
+				"5rdsz9hv3ySxL1TvNwtzxExr4khj5KBu56CRQkgfy87g"
 			);
 
 			const response = await destroyKey(connection, owner, tokenToDestroy);
